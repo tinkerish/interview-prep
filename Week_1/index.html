@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-security-policy"
+        content="default-src 'self'; script-src 'self'; img-src 'self' https://images.contentstack.io;">
+    <meta name="description" content="Basic Profile Info">
+    <meta name="keywords" content="profile, contact, user details">
+    <meta name="author" content="Priya Pandey">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/Week_1/index.html">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Profile Page</h1>
+    </header>
+    <main>
+        <section id="profile">
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Name</th>
+                        <th colspan="3">Details</th>
+                        <!-- <th>Bio</th>
+                        <th>Image</th> -->
+                    </tr>
+                    <tr>
+                        <!-- <th>Name</th> -->
+                        <th>Age</th>
+                        <th>Bio</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Priya</td>
+                        <td>14</td>
+                        <td>Lorem ipsum dolor sit amet.</td>
+                        <td>
+                            <div>
+                                <img src="https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/blt4a4af7e6facea579/6668df6ceca9a600983250ac/beautiful-flowers-hero.jpg?q=70&width=3840&auto=webp"
+                                    alt="Profile picture of Priya">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Priya</td>
+                        <td>14</td>
+                        <td>Lorem ipsum dolor sit amet.</td>
+                        <td>
+                            <div>
+                                <img src="https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/blt4a4af7e6facea579/6668df6ceca9a600983250ac/beautiful-flowers-hero.jpg?q=70&width=3840&auto=webp"
+                                    alt="Profile picture of Priya">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Priya</td>
+                        <td>14</td>
+                        <td>Lorem ipsum dolor sit amet.</td>
+                        <td>
+                            <div>
+                                <img src="https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/blt4a4af7e6facea579/6668df6ceca9a600983250ac/beautiful-flowers-hero.jpg?q=70&width=3840&auto=webp"
+                                    alt="Profile picture of Priya">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Priya</td>
+                        <td>14</td>
+                        <td>Lorem ipsum dolor sit amet.</td>
+                        <td>
+                            <div>
+                                <img src="https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/blt4a4af7e6facea579/6668df6ceca9a600983250ac/beautiful-flowers-hero.jpg?q=70&width=3840&auto=webp"
+                                    alt="Profile picture of Priya">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contact">
+            <form action="">
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname">
+                </div>
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname">
+                </div>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="message">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
