@@ -1,0 +1,68 @@
+
+.container{
+    background: yellow;
+    padding: 1rem;
+    width: 50%;
+}
+.form-assignment{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-areas: 
+    'one one zero'
+    'z two two'
+    'three three p'
+    's four four'
+    'five five n'
+    'm six six'
+    '0 seven l'
+}
+.child{
+    display: flex;
+    flex-direction: column;
+}
+.child:nth-child(1){
+    grid-area: one;
+}
+.child:nth-child(2){
+    grid-area: two;
+}
+.child:nth-child(3){
+    grid-area: three;
+}
+.child:nth-child(4){
+    grid-area: four;
+}
+.child:nth-child(5){
+    grid-area: five;
+}
+.child:nth-child(6){
+    grid-area: six;
+}
+.bttn{
+    grid-area: seven;
+}
+/* .child:nth-of-type(odd){
+    align-self: start;
+}
+.child:nth-of-type(even){
+    align-self: end;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+}
+.bttn{
+    align-self: center;
+}*/
+@media screen and (max-width: 700px){
+    .form-assignment{
+        grid-template-areas: 
+        'zero one one'
+        'two two z'
+        'p three three'
+        'four four s'
+        'n five five'
+        'six six m'
+        '0 seven l'
+    }
+} 
